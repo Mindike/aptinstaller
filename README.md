@@ -1,18 +1,19 @@
-# aptinstaller
-An easy comand-line installer script for ubuntu
+# Aptinstaller
+### An easy comand-line installer script for ubuntu
+### Search and Install packages easily
 
-You need...
+## **Usage**
 
---> Ruby (sudo apt-get install ruby)
+`aptinstaller package_name`
 
---> Colorize gem (gem install colorize)
+## **Requeriments**
+--> Ruby: `sudo apt-get install ruby`
 
-Recomended...
+--> Colorize gem: `gem install colorize`
 
---> sudo cp ./aptinstaller.rb /usr/local/bin/aptinstaller
+## **Installation**
 
---> sudo chmod +x /usr/local/bin/aptinstaller
+`sudo cp ./aptinstaller.rb /usr/local/bin/aptinstaller`
 
-Finally...
+`sudo chmod +x /usr/local/bin/aptinstaller`
 
---> Open a terminal and type... "aptinstaller".
